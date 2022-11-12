@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.exe
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\publish\web.config
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\publish\appsettings.Development.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\publish\appsettings.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\publish\WebApplication1.deps.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\publish\WebApplication1.runtimeconfig.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.dll
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.deps.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.runtimeconfig.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.pdb

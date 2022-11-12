@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\WebApplication1.exe
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\publish\web.config
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\appsettings.Development.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\appsettings.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\publish\appsettings.Development.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\publish\appsettings.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\publish\WebApplication1.deps.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\publish\WebApplication1.runtimeconfig.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\WebApplication1.dll
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\WebApplication1.deps.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\WebApplication1.runtimeconfig.json
+C:\Users\user\Desktop\Learnings\Windows_IIS_Learning\DotNet-with-IIS-Main\publish\WebApplication1.pdb
