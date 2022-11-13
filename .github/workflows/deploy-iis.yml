@@ -30,6 +30,7 @@ jobs:
       run: |
         dotnet publish -c Release -o .\myapp
 
+   # /s Copies directories and subdirectories, unless they are empty. /y to overwrite an existing destination file.
     - name: Deploy to IIS
       shell: cmd
       run: |
