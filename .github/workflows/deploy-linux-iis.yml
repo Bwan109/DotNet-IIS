@@ -3,7 +3,7 @@ name: Deploy .NET Linux IIS
 on:
   push:
     branches:
-      - master
+      - feature
   pull_request:
     types: [opened, synchronize, reopened]
 
@@ -31,5 +31,6 @@ jobs:
  
     - name: Deploy to IIS Server 
       run: |
+        sudo apt install lftp
         echo Starting...
         lftp -c "open -u ubuntu,${{ secrets.PASSWORD }} 192.168.100.89; mirror -R -vvv /home/ubuntu/Developer/brandon/actions-runner-IIS-Linux/_work/DotNet-IIS/DotNet-IIS/publish /website-IIS/ --no-perms; bye"
