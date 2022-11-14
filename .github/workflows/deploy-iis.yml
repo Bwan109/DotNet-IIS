@@ -22,19 +22,17 @@ jobs:
     
     # dotnet build and publish
     - name: Build with dotnet
-      uses: actions/setup-dotnet@v1
-      shell: cmd
+      #shell: cmd
       run: dotnet build --configuration Release 
 
     - name: dotnet publish 
-      uses: actions/setup-dotnet@v1
-      shell: cmd
+      #shell: cmd
       run: |
         dotnet publish -c Release -o .\myapp
 
    # /s Copies directories and subdirectories, unless they are empty. /y to overwrite an existing destination file.
     - name: Deploy to IIS
-      shell: cmd
+      #shell: cmd
       run: |
         iisreset /stop
         xcopy /s /y .\myapp\* c:\www\DotNet-with-IIS-Main
