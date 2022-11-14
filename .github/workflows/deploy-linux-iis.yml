@@ -1,0 +1,35 @@
+name: Deploy .NET Linux IIS
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '6.0.x'
+   # - name: Restore dependencies
+   #   run: dotnet restore
+
+    - name: Build with dotnet
+      run: dotnet build --no-restore
+   
+    - name: Run the Publish
+      run: dotnet publish --configuration Release --no-restore --output ./publish
+      
+      
+ #DEPLOYMENT PHASE
+ 
+    - name: Deploy to IIS Server 
+      run: |
+        echo Starting...
+        lftp -c "open -u ubuntu,${{ secrets.PASSWORD }} 192.168.100.89; mirror -R -vvv /home/ubuntu/Developer/brandon/actions-runner-IIS-Linux/_work/DotNet-IIS/DotNet-IIS/publish /website-IIS/ --no-perms; bye"
