@@ -22,10 +22,12 @@ jobs:
     
     # dotnet build and publish
     - name: Build with dotnet
+      uses: actions/setup-dotnet@v1
       shell: cmd
       run: dotnet build --configuration Release 
 
     - name: dotnet publish 
+      uses: actions/setup-dotnet@v1
       shell: cmd
       run: |
         dotnet publish -c Release -o .\myapp
