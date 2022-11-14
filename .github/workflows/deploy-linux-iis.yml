@@ -31,6 +31,6 @@ jobs:
  
     - name: Deploy to IIS Server 
       run: |
-        apt-get install lftp
+        sudo apt-get install lftp
         echo Starting...
         lftp -c "open -u user,${{ secrets.PASSWORD }}  192.168.68.110; mirror -R -vvv /home/ubuntu/Developer/brandon/actions-runner-IIS-Linux/_work/DotNet-IIS/DotNet-IIS/publish /website-IIS/ --no-perms; bye"
